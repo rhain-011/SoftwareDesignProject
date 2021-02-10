@@ -19,7 +19,7 @@ public abstract class Player
      */
     public Player(String name)
     {
-        playerID= name;
+        playerID = name;
     }
     
     /**
