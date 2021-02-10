@@ -24,3 +24,5 @@ public abstract class Card
     public abstract String toString();
     
 }
+
+// Sami Editted this 
