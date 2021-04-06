@@ -18,7 +18,20 @@ public class GroupOfCards
 {
     //The group of cards, stored in an ArrayList
     private ArrayList <Card> deck;
-    private int size;//the size of the grouping
+    
+    public GroupOfCards()
+    {
+        int totalCards = 0;
+    
+        for (int suit = 0; suit < 4; suit++)
+        {
+            for (int value = 1; value < 14; value++)
+            {
+
+            }
+        }
+    }
+    
     
     public ArrayList<Card> showCards()
     {
@@ -29,5 +42,4 @@ public class GroupOfCards
     {
         Collections.shuffle(deck);
     }
-    
 }//end class
